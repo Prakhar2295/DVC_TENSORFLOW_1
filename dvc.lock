@@ -21,3 +21,15 @@ stages:
       md5: 4cd98e0169f25b4675d46cbc1b678d2d.dir
       size: 19364112
       nfiles: 174
+  base_model:
+    cmd: python src/stage_02_prepare_base_model.py --config=config/config.yaml --params=params.yaml
+    deps:
+    - path: config/config.yaml
+      md5: 04ceaba3bf9135a485d1b3f7859affc8
+      size: 479
+    - path: params.yaml
+      md5: a0d0f7398181fbea048391bfb449378e
+      size: 123
+    - path: src/stage_02_prepare_base_model.py
+      md5: edb7854df44bde584b28692eb7cae654
+      size: 2351
