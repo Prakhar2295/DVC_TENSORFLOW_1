@@ -9,6 +9,8 @@ artifacts:
   TENSORBOARD_ROOT_LOG_DIR: tensorboard_log_dir
   CALLBACKS_DIR: callbacks
   DATA_DIR: data
+  TRAINED_MODEL_FILENAME: model_at_Sat_Jan_14_22_09_07_2023_.h5
+
 
 source_download_dirs:
    - ../outside_data/dog
