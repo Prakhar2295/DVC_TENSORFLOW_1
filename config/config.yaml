@@ -10,6 +10,8 @@ artifacts:
   CALLBACKS_DIR: callbacks
   DATA_DIR: data
   TRAINED_MODEL_FILENAME: model_at_Sat_Jan_14_22_09_07_2023_.h5
+  reports_dir: reports_dir
+  scores: scores.json 
 
 
 source_download_dirs:
@@ -19,3 +21,5 @@ source_download_dirs:
 local_data_dirs:
    - data/dog
    - data/cat
+
+  
